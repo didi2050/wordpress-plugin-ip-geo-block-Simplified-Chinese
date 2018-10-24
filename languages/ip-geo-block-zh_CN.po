@@ -1,0 +1,1719 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IP Geo Block\n"
+"POT-Creation-Date: 2018-10-19 09:51+0800\n"
+"PO-Revision-Date: 2018-10-19 11:52+0800\n"
+"Last-Translator: didi2050 <7564945@qq.com>\n"
+"Language-Team: didi2050 <7564945@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ip-geo-block.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-ip-geo-block-admin.php:291
+msgid "Are you sure ?"
+msgstr "你确定 ？"
+
+#: admin/class-ip-geo-block-admin.php:292
+#: admin/class-ip-geo-block-admin.php:793
+msgid "Open a new window"
+msgstr "新建窗口"
+
+#: admin/class-ip-geo-block-admin.php:293 admin/includes/tab-settings.php:1506
+msgid "Generate new link"
+msgstr "生成新链接"
+
+#: admin/class-ip-geo-block-admin.php:294 admin/includes/tab-settings.php:1507
+msgid "Delete current link"
+msgstr "删除当前链接"
+
+#: admin/class-ip-geo-block-admin.php:295
+msgid ""
+"Please add the following link to favorites / bookmarks in your browser : "
+msgstr "请在浏览器中添加以下链接至收藏夹/书签:"
+
+#: admin/class-ip-geo-block-admin.php:296
+msgid "ajax for logged-in user"
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:297
+msgid "ajax for non logged-in user"
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:298
+#, php-format
+msgid "[Found: %d]"
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:299
+#, php-format
+msgid "Find and verify `%s` on &#8220;Logs&#8221; tab."
+msgstr "查询并验证 `%s` 在 &#8220;Logs&#8221; tab."
+
+#: admin/class-ip-geo-block-admin.php:300
+msgid "This feature is available with HTML5 compliant browsers."
+msgstr "此功能适用于HTML5兼容的浏览器。"
+
+#: admin/class-ip-geo-block-admin.php:301
+msgid "The selected row cannot be found in the table."
+msgstr "无法在表格中找到所选行。"
+
+#: admin/class-ip-geo-block-admin.php:302
+#: admin/class-ip-geo-block-admin.php:1571
+#, php-format
+msgid "An error occurred while executing the ajax command `%s`."
+msgstr "执行ajax命令  `%s` 时发生错误。"
+
+#: admin/class-ip-geo-block-admin.php:306
+msgid "No data available in table"
+msgstr "表中没有可用数据"
+
+#: admin/class-ip-geo-block-admin.php:307
+msgid "No matching records found"
+msgstr "未找到符合的记录"
+
+#: admin/class-ip-geo-block-admin.php:308
+#: admin/includes/class-admin-ajax.php:107
+#: admin/includes/class-admin-ajax.php:240
+#: admin/includes/tab-geolocation.php:74
+msgid "IP address"
+msgstr "IP地址"
+
+#: admin/class-ip-geo-block-admin.php:309
+#: admin/includes/class-admin-ajax.php:108
+#: admin/includes/class-admin-ajax.php:241
+msgid "Code"
+msgstr "代码"
+
+#: admin/class-ip-geo-block-admin.php:310
+#: admin/includes/class-admin-ajax.php:109
+#: admin/includes/class-admin-ajax.php:242
+msgid "ASN"
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:311
+#: admin/includes/class-admin-ajax.php:243
+msgid "Host name"
+msgstr "主机名"
+
+#: admin/class-ip-geo-block-admin.php:312
+#: admin/includes/class-admin-ajax.php:110
+#: admin/includes/class-admin-ajax.php:244
+msgid "Target"
+msgstr "目标"
+
+#: admin/class-ip-geo-block-admin.php:313
+#: admin/includes/class-admin-ajax.php:245
+msgid "Failure / Total"
+msgstr "失败 / 总计"
+
+#: admin/class-ip-geo-block-admin.php:314
+#: admin/includes/class-admin-ajax.php:246
+msgid "Elapsed[sec]"
+msgstr "经过 [sec]"
+
+#: admin/class-ip-geo-block-admin.php:315
+#: admin/includes/class-admin-ajax.php:106
+msgid "Time"
+msgstr "时间"
+
+#: admin/class-ip-geo-block-admin.php:316
+#: admin/includes/class-admin-ajax.php:111
+msgid "Result"
+msgstr "结果"
+
+#: admin/class-ip-geo-block-admin.php:317
+#: admin/includes/class-admin-ajax.php:112
+msgid "Request"
+msgstr "请求"
+
+#: admin/class-ip-geo-block-admin.php:318
+#: admin/includes/class-admin-ajax.php:113
+msgid "User agent"
+msgstr "用户代理"
+
+#: admin/class-ip-geo-block-admin.php:319
+#: admin/includes/class-admin-ajax.php:114
+msgid "HTTP headers"
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:320
+#: admin/includes/class-admin-ajax.php:115
+msgid "$_POST data"
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:346
+msgid "Contribute on GitHub"
+msgstr "在GitHub上贡献开发"
+
+#: admin/class-ip-geo-block-admin.php:360
+#: admin/class-ip-geo-block-admin.php:478
+#: admin/class-ip-geo-block-admin.php:736
+msgid "Settings"
+msgstr "设置"
+
+#: admin/class-ip-geo-block-admin.php:373
+msgid "suggested text."
+msgstr "建议文本"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-ip-geo-block-admin.php:455
+#: admin/class-ip-geo-block-admin.php:456
+#: admin/class-ip-geo-block-admin.php:466
+#: admin/class-ip-geo-block-admin.php:467
+#: admin/class-ip-geo-block-admin.php:477
+#: admin/class-ip-geo-block-admin.php:487
+msgid "IP Geo Block"
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:488
+#: admin/class-ip-geo-block-admin.php:741
+msgid "Site List"
+msgstr "网站列表"
+
+#: admin/class-ip-geo-block-admin.php:517
+msgid "You need WordPress 3.7+."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:521
+#, php-format
+msgid ""
+"Can not load Geolocation API libraries from <code>%s</code>. It seems to "
+"have failed downloading <a rel=\"noreferrer\" href=\"https://github.com/"
+"tokkonopapa/WordPress-IP-Geo-API/archive/master.zip\" title=\"Download the "
+"contents of tokkonopapa/WordPress-IP-Geo-API as a zip file\">ZIP file</a> "
+"from <a rel=\"noreferrer\" href=\"https://github.com/tokkonopapa/WordPress-"
+"IP-Geo-API\" title=\"tokkonopapa/WordPress-IP-Geo-API - GitHub\">WordPress-"
+"IP-Geo-API</a>. Please install <code>ip-geo-api</code> with write permission "
+"according to <a rel=\"noreferrer\" href=\"https://www.ipgeoblock.com/codex/"
+"how-to-fix-permission-troubles.html\" title=\"How can I fix permission "
+"troubles? | IP Geo Block\">this instruction</a>."
+msgstr ""
+"无法从 <code>%s</code> 加载Geolocation API库。似乎从<a rel=\"noreferrer\" "
+"href=\"https://github.com/tokkonopapa/WordPress-IP-Geo-API\" title="
+"\"tokkonopapa/WordPress-IP-Geo-API - GitHub\">WordPress-IP-Geo-API</a>下载<a "
+"rel=\"noreferrer\" href=\"https://github.com/tokkonopapa/WordPress-IP-Geo-"
+"API/archive/master.zip\" title=\"Download the contents of tokkonopapa/"
+"WordPress-IP-Geo-API as a zip file\">ZIP 文件</a>失败。请按照<a rel="
+"\"noreferrer\" href=\"https://www.ipgeoblock.com/codex/how-to-fix-permission-"
+"troubles.html\" title=\"How can I fix permission troubles? | IP Geo Block\">"
+"本指令</a>安装具有写权限的 <code>ip-geo-api</code>。"
+
+#: admin/class-ip-geo-block-admin.php:530
+#, php-format
+msgid ""
+"You should select at least one API at <a href=\"%s\">Geolocation API "
+"settings</a>. Otherwise <strong>you'll be blocked</strong> after the cache "
+"expires."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:539
+#, php-format
+msgid ""
+"You should select at least one API for local database at <a href=\"%s"
+"\">Geolocation API settings</a>. Otherwise access to the external API may "
+"slow down the site."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:550
+#, php-format
+msgid ""
+"Now downloading geolocation databases in background. After a little while, "
+"please check your country code and &#8220;<strong>Matching rule</"
+"strong>&#8221; at <a href=\"%s\">Validation rule settings</a>."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:556
+#, php-format
+msgid ""
+"The &#8220;<strong>Matching rule</strong>&#8221; is not set properly. Please "
+"confirm it at <a href=\"%s\">Validation rule settings</a>."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:565
+msgid "Local database and matching rule have been updated."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:576
+msgid ""
+"Once you logout, you will be unable to login again because the number of "
+"login attempts reaches the limit."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:578
+#, php-format
+msgid ""
+"Please remove your IP address in &#8220;%1$sStatistics in IP address cache"
+"%2$s&#8221; on &#8220;%3$sStatistics%4$s&#8221; tab to prevent locking "
+"yourself out."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:589
+msgid ""
+"Once you logout, you will be unable to login again because your country code "
+"or IP address is in the blacklist."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:590
+msgid ""
+"Once you logout, you will be unable to login again because your country code "
+"or IP address is not in the whitelist."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:594
+#, php-format
+msgid "Please check your &#8220;%sValidation rule settings%s&#8221;."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:598
+#, php-format
+msgid ""
+"Please confirm your local geolocation databases at &#8220;%sLocal database "
+"settings%s&#8221; section and remove your IP address in cache at &#8220;"
+"%sStatistics in cache%s&#8221; section."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:620
+#, php-format
+msgid ""
+"Emergency login link is outdated. Please delete it once and generate again "
+"at &#8220;%sPlugin settings%s&#8221; section. Also do not forget to update "
+"favorites / bookmarks in your browser."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:629
+msgid ""
+"&#8220;mu-plugins&#8221; (ip-geo-block-mu.php) at &#8220;Validation "
+"timing&#8221; is imcompatible with <strong>IP Geo Allow</strong>. Please "
+"select &#8220;init&#8221; action hook."
+msgstr ""
+
+#: admin/class-ip-geo-block-admin.php:737
+msgid "Statistics"
+msgstr "统计"
+
+#: admin/class-ip-geo-block-admin.php:738
+msgid "Logs"
+msgstr "日志"
+
+#: admin/class-ip-geo-block-admin.php:739
+msgid "Search"
+msgstr "搜索"
+
+#: admin/class-ip-geo-block-admin.php:740
+msgid "Attribution"
+msgstr "权限"
+
+#: admin/class-ip-geo-block-admin.php:757
+#: admin/class-ip-geo-block-admin.php:773
+msgid "Network wide"
+msgstr "网络带宽"
+
+#: admin/class-ip-geo-block-admin.php:786
+msgid "Toggle all"
+msgstr "全部切换"
+
+#: admin/class-ip-geo-block-admin.php:789
+msgid ""
+"Independent of &#8220;Privacy and record settings&#8221;, you can see all "
+"the requests validated by this plugin in almost real time."
+msgstr ""
+"独立于  &#8220;隐私和记录设置&#8221;，你可以看到所有的请求被这个插件几乎实时"
+"验证。"
+
+#: admin/class-ip-geo-block-admin.php:789 admin/includes/tab-accesslog.php:39
+msgid "Live update"
+msgstr "实时更新"
+
+#: admin/class-ip-geo-block-admin.php:793
+msgid "Open a new window on clicking the link in the chart."
+msgstr "单击图表中的链接打开一个新窗口。"
+
+#: admin/class-ip-geo-block-admin.php:817
+msgid "Thanks for providing these great services for free."
+msgstr "感谢您免费提供这些优质服务。"
+
+#: admin/class-ip-geo-block-admin.php:818
+msgid ""
+"(Most browsers will redirect you to each site <a href=\"https://www."
+"ipgeoblock.com/etc/referer.html\" title=\"Referer Checker\">without referrer "
+"when you click the link</a>.)"
+msgstr ""
+"(大多数浏览器会将你重定向到每一个网站<a href=\"https://www.ipgeoblock.com/"
+"etc/referer.html\" title=\"Referer Checker\">当你点击链接时没有引用</a>.)"
+
+#: admin/class-ip-geo-block-admin.php:823
+msgid "Back to top"
+msgstr "回到顶端"
+
+#: admin/class-ip-geo-block-admin.php:915
+msgid "Enable"
+msgstr "启用"
+
+#: admin/class-ip-geo-block-admin.php:930
+msgid "Select one"
+msgstr "选择一个"
+
+#: admin/class-ip-geo-block-admin.php:1349
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页。"
+
+#: admin/class-ip-geo-block-admin.php:1376
+#: admin/includes/class-admin-rewrite.php:194
+#: classes/class-ip-geo-block-cron.php:216
+#: classes/class-ip-geo-block-cron.php:320
+#: classes/class-ip-geo-block-cron.php:394
+#: classes/class-ip-geo-block-opts.php:471
+#, php-format
+msgid "Unable to write <code>%s</code>. Please check the permission."
+msgstr "无法写入 <code>%s</code>.  请检查权限。"
+
+#: admin/class-ip-geo-block-admin.php:1406
+msgid "Settings saved."
+msgstr "保存设置"
+
+#: admin/includes/class-admin-ajax.php:72
+#: admin/includes/class-admin-ajax.php:75 admin/includes/tab-settings.php:84
+#: admin/includes/tab-settings.php:103
+msgid "n/a"
+msgstr ""
+
+#: admin/includes/class-admin-ajax.php:201
+#, php-format
+msgid "The user %s (user ID: %d) is in use."
+msgstr "用户  %s (user ID: %d)  正在使用中。"
+
+#: admin/includes/class-admin-ajax.php:505
+#, php-format
+msgid ""
+"illegal format at %s. Please delete the corresponding line and try again."
+msgstr "%s 上的非法格式。请删除相应的行并重试。"
+
+#: admin/includes/class-admin-rewrite.php:168
+#: classes/class-ip-geo-block-cron.php:211
+#: classes/class-ip-geo-block-cron.php:389
+#, php-format
+msgid "Unable to read <code>%s</code>. Please check the permission."
+msgstr "无法读取  <code>%s</code>.  请检查权限。"
+
+#: admin/includes/class-admin-rewrite.php:169
+#: admin/includes/class-admin-rewrite.php:195
+#, php-format
+msgid "Or please refer to %s to set it manually."
+msgstr "或请参阅 %s 以手动设置它。"
+
+#: admin/includes/class-admin-rewrite.php:234
+#, php-format
+msgid "&#8220;auto_prepend_file&#8221; already defined in %s."
+msgstr "&#8220;auto_prepend_file&#8221; 已定义的 %s."
+
+#: admin/includes/tab-accesslog.php:19
+msgid "Validation logs"
+msgstr "验证日志"
+
+#: admin/includes/tab-accesslog.php:19 admin/includes/tab-settings.php:17
+msgid "Help"
+msgstr "帮助"
+
+#: admin/includes/tab-accesslog.php:55 admin/includes/tab-settings.php:413
+msgid "Comment post"
+msgstr "评论帖"
+
+#: admin/includes/tab-accesslog.php:56 admin/includes/tab-settings.php:414
+msgid "XML-RPC"
+msgstr ""
+
+#: admin/includes/tab-accesslog.php:57 admin/includes/tab-settings.php:415
+msgid "Login form"
+msgstr "登录表单"
+
+#: admin/includes/tab-accesslog.php:58 admin/includes/tab-settings.php:416
+msgid "Admin area"
+msgstr "管理区"
+
+#: admin/includes/tab-accesslog.php:59 admin/includes/tab-settings.php:418
+msgid "Public facing pages"
+msgstr "面向公众的页面"
+
+#: admin/includes/tab-accesslog.php:62 admin/includes/tab-network.php:75
+msgid "All"
+msgstr "所有"
+
+#: admin/includes/tab-accesslog.php:71
+msgid "Select target"
+msgstr "选择目标"
+
+#: admin/includes/tab-accesslog.php:86
+msgid "Search in logs"
+msgstr "在日志中搜索"
+
+#: admin/includes/tab-accesslog.php:95 admin/includes/tab-statistics.php:232
+msgid "Reset"
+msgstr "重置"
+
+#: admin/includes/tab-accesslog.php:109
+msgid "Preset filters"
+msgstr "预先设置"
+
+#: admin/includes/tab-accesslog.php:125 admin/includes/tab-statistics.php:238
+msgid "Bulk action"
+msgstr "批量操作"
+
+#: admin/includes/tab-accesslog.php:136 admin/includes/tab-statistics.php:249
+msgid "Remove entries by IP address"
+msgstr "按 IP 地址删除条目"
+
+#: admin/includes/tab-accesslog.php:137 admin/includes/tab-statistics.php:250
+msgid "Add IP address to &#8220;Whitelist&#8221;"
+msgstr ""
+
+#: admin/includes/tab-accesslog.php:138 admin/includes/tab-statistics.php:251
+msgid "Add IP address to &#8220;Blacklist&#8221;"
+msgstr ""
+
+#: admin/includes/tab-accesslog.php:139 admin/includes/tab-statistics.php:252
+msgid "Add AS number to &#8220;Whitelist&#8221;"
+msgstr ""
+
+#: admin/includes/tab-accesslog.php:140 admin/includes/tab-statistics.php:253
+msgid "Add AS number to &#8220;Blacklist&#8221;"
+msgstr ""
+
+#: admin/includes/tab-accesslog.php:142 admin/includes/tab-network.php:56
+#: admin/includes/tab-statistics.php:255
+msgid "Apply"
+msgstr "应用"
+
+#: admin/includes/tab-accesslog.php:149 admin/includes/tab-statistics.php:191
+msgid "Clear logs"
+msgstr "清除日志"
+
+#: admin/includes/tab-accesslog.php:157 admin/includes/tab-statistics.php:167
+#: admin/includes/tab-statistics.php:199 admin/includes/tab-statistics.php:269
+msgid "Clear all"
+msgstr "清除所有"
+
+#: admin/includes/tab-accesslog.php:166
+msgid "Export logs"
+msgstr "导出日志"
+
+#: admin/includes/tab-accesslog.php:172 admin/includes/tab-settings.php:1538
+#: admin/includes/tab-statistics.php:283
+msgid "Export to the local file"
+msgstr "导出到本地文件"
+
+#: admin/includes/tab-accesslog.php:172 admin/includes/tab-statistics.php:283
+msgid "Export csv"
+msgstr "导出CSV"
+
+#: admin/includes/tab-accesslog.php:193 admin/includes/tab-network.php:112
+#: admin/includes/tab-statistics.php:413
+#, php-format
+msgid "[ %sRecord &#8220;Validation logs&#8221;%s ] is disabled."
+msgstr "[ %sRecord &#8220;Validation logs&#8221;%s ]  已禁用。"
+
+#: admin/includes/tab-accesslog.php:194 admin/includes/tab-network.php:113
+#: admin/includes/tab-statistics.php:414
+msgid ""
+"Please set the proper condition to record and analyze the validation logs."
+msgstr "请设置正确的条件以记录和分析验证日志。"
+
+#: admin/includes/tab-attribution.php:13
+msgid "Attribution links"
+msgstr "归属链接"
+
+#: admin/includes/tab-geolocation.php:17
+msgid "Search IP address geolocation"
+msgstr "搜索 IP 地址地理位置"
+
+#: admin/includes/tab-geolocation.php:46
+msgid "Geolocation API"
+msgstr ""
+
+#: admin/includes/tab-geolocation.php:89 admin/includes/tab-settings.php:1084
+msgid ""
+"<dfn title=\"IP address is always encrypted on recording in Cache and Logs. "
+"Moreover, this option replaces the end of IP address with &#8220;***&#8221; "
+"to make it anonymous.\">Anonymize IP address</dfn>"
+msgstr ""
+
+#: admin/includes/tab-geolocation.php:104
+msgid "Search geolocation"
+msgstr "搜索地理位置"
+
+#: admin/includes/tab-geolocation.php:112
+msgid "Search now"
+msgstr "马上搜索"
+
+#: admin/includes/tab-network.php:33
+msgid "Blocked by target in logs"
+msgstr "在日志中被目标阻止"
+
+#: admin/includes/tab-network.php:42
+msgid "Rows"
+msgstr "行"
+
+#: admin/includes/tab-network.php:47
+msgid "Columns"
+msgstr "列"
+
+#: admin/includes/tab-network.php:61
+msgid "Chart display layout"
+msgstr "图表显示布局"
+
+#: admin/includes/tab-network.php:76
+msgid "Latest 1 hour"
+msgstr "最新1小时"
+
+#: admin/includes/tab-network.php:77
+msgid "Latest 24 hours"
+msgstr "最新24小时"
+
+#: admin/includes/tab-network.php:78
+msgid "Latest 1 week"
+msgstr "最新1周"
+
+#: admin/includes/tab-network.php:90
+msgid "Duration to retrieve"
+msgstr "要检索的持续时间"
+
+#: admin/includes/tab-settings.php:13
+msgid "(comma separated)"
+msgstr "（以逗号分隔）"
+
+#: admin/includes/tab-settings.php:14
+msgid "(comma or RET separated)"
+msgstr "(逗号或 RET 分隔)"
+
+#: admin/includes/tab-settings.php:15
+msgid "Toggle selection"
+msgstr "切换选择"
+
+#: admin/includes/tab-settings.php:16
+msgid "Find blocked requests in &#8220;Logs&#8220;"
+msgstr "在 &#8220;Logs&#8220; 中查找被阻塞的请求"
+
+#: admin/includes/tab-settings.php:18
+msgid ""
+"Before adding as &#8220;Exception&#8221;, please click on &#8220;<a class="
+"\"ip-geo-block-icon ip-geo-block-icon-alert\" title=\"This button is just a "
+"sample.\"><span></span></a>&#8221; button (if exists) attached to the "
+"following list to confirm that the blocked request is not malicious."
+msgstr ""
+
+#: admin/includes/tab-settings.php:19
+msgid "Open CIDR calculator for IPv4 / IPv6."
+msgstr "打开IPv4 / IPv6的CIDR计算器。"
+
+#: admin/includes/tab-settings.php:54
+msgid "Validation rule settings"
+msgstr "验证规则设置"
+
+#: admin/includes/tab-settings.php:76
+msgid ""
+"<dfn title=\"You can confirm the appropriate Geolocation APIs and country "
+"code by referring &#8220;Scan country code&#8221;.\">Your IP address / "
+"Country</dfn>"
+msgstr ""
+"<dfn title=\"You can confirm the appropriate Geolocation APIs and country "
+"code by referring &#8220;Scan country code&#8221;.\">您的IP地址 / 国家</dfn>"
+
+#: admin/includes/tab-settings.php:85 admin/includes/tab-settings.php:104
+msgid "Scan all the APIs you selected at Geolocation API settings"
+msgstr "扫描您在Geolocation API设置中选择的所有API"
+
+#: admin/includes/tab-settings.php:85 admin/includes/tab-settings.php:104
+msgid "Scan country code"
+msgstr "扫描国家/地区代码"
+
+#: admin/includes/tab-settings.php:95
+msgid ""
+"<dfn title=\"You can confirm the appropriate Geolocation APIs and country "
+"code by referring &#8220;Scan country code&#8221;.\">Server IP address / "
+"Country</dfn>"
+msgstr ""
+"<dfn title=\"You can confirm the appropriate Geolocation APIs and country "
+"code by referring &#8220;Scan country code&#8221;.\">服务器IP地址 / 国家</"
+"dfn>"
+
+#: admin/includes/tab-settings.php:112
+msgid "Whitelist"
+msgstr ""
+
+#: admin/includes/tab-settings.php:113
+msgid "Blacklist"
+msgstr ""
+
+#: admin/includes/tab-settings.php:117
+msgid ""
+"Please select either &#8220;Whitelist&#8221; or &#8220;Blacklist&#8221;."
+msgstr "请选择 &#8220;Whitelist&#8221; 或 &#8220;Blacklist&#8221;."
+
+#: admin/includes/tab-settings.php:118
+msgid ""
+"<dfn title=\"&#8220;Block by country&#8221; will be bypassed in case of "
+"empty. The special code &#8220;XX&#8221; is assigned as private IP address "
+"including localhost. And &#8220;ZZ&#8221; is for unknown IP address (i.e. "
+"not in the geolocation databases). Please use &#8220;YY&#8221; if you need "
+"the code that does not correspond to any of the countries.\">Whitelist of "
+"country code</dfn>"
+msgstr ""
+"<dfn title=\"&#8220;Block by country&#8221; will be bypassed in case of "
+"empty. The special code &#8220;XX&#8221; is assigned as private IP address "
+"including localhost. And &#8220;ZZ&#8221; is for unknown IP address (i.e. "
+"not in the geolocation databases). Please use &#8220;YY&#8221; if you need "
+"the code that does not correspond to any of the countries.\">国家代码白名单</"
+"dfn>"
+
+#: admin/includes/tab-settings.php:119
+msgid ""
+"<dfn title=\"&#8220;Block by country&#8221; will be bypassed in case of "
+"empty. The special code &#8220;XX&#8221; is assigned as private IP address "
+"including localhost. And &#8220;ZZ&#8221; is for unknown IP address (i.e. "
+"not in the geolocation databases). Please use &#8220;YY&#8221; if you need "
+"the code that does not correspond to any of the countries.\">Blacklist of "
+"country code</dfn>"
+msgstr ""
+"<dfn title=\"&#8220;Block by country&#8221; will be bypassed in case of "
+"empty. The special code &#8220;XX&#8221; is assigned as private IP address "
+"including localhost. And &#8220;ZZ&#8221; is for unknown IP address (i.e. "
+"not in the geolocation databases). Please use &#8220;YY&#8221; if you need "
+"the code that does not correspond to any of the countries.\">国家代码黑名单</"
+"dfn>"
+
+#: admin/includes/tab-settings.php:125 admin/includes/tab-settings.php:790
+msgid "Matching rule"
+msgstr "匹配规则"
+
+#: admin/includes/tab-settings.php:137
+msgid ""
+"A request from which the country code or IP address is <strong>NOT</strong> "
+"in the whitelist will be blocked."
+msgstr "从该国家代码或IP地 <strong>NOT</strong> 白名单中的请求将被阻塞。"
+
+#: admin/includes/tab-settings.php:138
+msgid ""
+"A request from which the country code or IP address is in the blacklist will "
+"be blocked."
+msgstr "将阻止国家/地区代码或IP地址位于黑名单中的请求。"
+
+#: admin/includes/tab-settings.php:180
+msgid ""
+"<dfn title=\"It enables utilizing &#8220;AS number&#8221; in the &#8220;"
+"Whitelist/Blacklist of extra IP addresses&#8221; to specify a group of IP "
+"networks.\">Use Autonomous System Number</dfn>"
+msgstr ""
+"<dfn title=\"It enables utilizing &#8220;AS number&#8221; in the &#8220;"
+"Whitelist/Blacklist of extra IP addresses&#8221; to specify a group of IP "
+"networks.\">使用 Autonomous System Number</dfn>"
+
+#: admin/includes/tab-settings.php:191
+#, php-format
+msgid "Some useful tools to find ASN are introduced in &#8220;%s&#8221;."
+msgstr "在 &#8220;%s&#8221; 中引入了一些有用的工具来查找ASN。"
+
+#: admin/includes/tab-settings.php:198
+msgid ""
+"<dfn title=\"e.g. &#8220;192.0.64.0/18&#8221; for Jetpack server, "
+"&#8220;69.46.36.0/27&#8221; for WordFence server or &#8220;AS32934&#8221; "
+"for Facebook.\">Whitelist of extra IP addresses prior to country code</dfn>"
+msgstr ""
+"<dfn title=\"e.g. &#8220;192.0.64.0/18&#8221; for Jetpack server, "
+"&#8220;69.46.36.0/27&#8221; for WordFence server or &#8220;AS32934&#8221; "
+"for Facebook.\">国家代码之前额外IP地址的白名单</dfn>"
+
+#: admin/includes/tab-settings.php:219
+msgid ""
+"<dfn title=\"Server level access control is recommended (e.g. .htaccess)."
+"\">Blacklist of extra IP addresses prior to country code</dfn>"
+msgstr ""
+"<dfn title=\"Server level access control is recommended (e.g. .htaccess).\">"
+"国家代码之前额外IP地址的黑名单</dfn>"
+
+#: admin/includes/tab-settings.php:240
+msgid ""
+"<dfn title=\"If your server is placed behind the proxy server or the load "
+"balancing server, you need to put the appropriate key such as &#8220;"
+"HTTP_X_FORWARDED_FOR&#8221;, &#8220;HTTP_X_REAL_IP&#8221; or something like "
+"that to retrieve the client IP address.\">$_SERVER keys to retrieve extra IP "
+"addresses</dfn>"
+msgstr ""
+"<dfn title=\"If your server is placed behind the proxy server or the load "
+"balancing server, you need to put the appropriate key such as &#8220;"
+"HTTP_X_FORWARDED_FOR&#8221;, &#8220;HTTP_X_REAL_IP&#8221; or something like "
+"that to retrieve the client IP address.\">$_SERVER 键检索额外的IP地址</dfn>"
+
+#: admin/includes/tab-settings.php:258
+msgid ""
+"<dfn title=\"It validates malicious signatures independently of &#8220;Block "
+"by country&#8221; and &#8220;Prevent Zero-day Exploit&#8221; for the target "
+"&#8220;Admin area&#8221;, &#8220;Admin ajax/post&#8221;, &#8220;Plugins "
+"area&#8221; and &#8220;Themes area&#8221;.\">Bad signatures in query</dfn> "
+"<nobr>(<a class=\"ip-geo-block-icon ip-geo-block-icon-cycle\" id=\"ip-geo-"
+"block-decode\" title=\"When you find ugly character string in the text area, "
+"please click to restore.\"><span></span></a>)</nobr>"
+msgstr ""
+"<dfn title=\"It validates malicious signatures independently of &#8220;Block "
+"by country&#8221; and &#8220;Prevent Zero-day Exploit&#8221; for the target "
+"&#8220;Admin area&#8221;, &#8220;Admin ajax/post&#8221;, &#8220;Plugins "
+"area&#8221; and &#8220;Themes area&#8221;.\">查询中的不良签名</dfn> "
+"<nobr>(<a class=\"ip-geo-block-icon ip-geo-block-icon-cycle\" id=\"ip-geo-"
+"block-decode\" title=\"当您在文本区域中找到难看的字符串时，请单击以恢"
+"复。\"><span></span></a>)</nobr>"
+
+#: admin/includes/tab-settings.php:272
+msgid ""
+"<dfn title=\"Select allowed MIME type.\">Whitelist of allowed MIME type</dfn>"
+msgstr "<dfn title=\"Select allowed MIME type.\">允许的MIME类型的白名单</dfn>"
+
+#: admin/includes/tab-settings.php:283
+msgid ""
+"<dfn title=\"Put forbidden file extensions.\">Blacklist of forbidden file "
+"extensions</dfn>"
+msgstr "<dfn title=\"放入禁止的文件扩展名.\">禁止文件扩展名的黑名单</dfn>"
+
+#: admin/includes/tab-settings.php:287
+msgid ""
+"<dfn title=\"Specify the capabilities to be verified. Depending on the "
+"particular type of uploader, certain capability may be required. Default is "
+"&#8220;upload_files&#8221; for Administrator, Editor and Author. This "
+"verification will be skipped if empty.\">Capabilities to be verified</dfn>"
+msgstr ""
+"<dfn title=\"指定要验证的功能。根据上传器的特定类型，可能需要某些功能。管理"
+"员，编辑和作者的默认值为 &#8220;upload_files&#8221; 。如果为空，将跳过此验"
+"证。\">要验证的功能</dfn>"
+
+#: admin/includes/tab-settings.php:287
+msgid ""
+"( See &#8220;<a rel=\"noreferrer\" href=\"https://codex.wordpress.org/"
+"Roles_and_Capabilities\" title=\"Roles and Capabilities &laquo; WordPress "
+"Codex\">Roles and Capabilities</a>&#8221; )"
+msgstr ""
+"（参见 &#8220;<a rel=\"noreferrer\" href=\"https://codex.wordpress.org/"
+"Roles_and_Capabilities\" title=\"Roles and Capabilities &laquo; WordPress "
+"Codex\">角色和能力</a>&#8221;）"
+
+#: admin/includes/tab-settings.php:293
+msgid ""
+"<dfn title=\"It restricts the file types on upload in order to block malware "
+"and backdoor via both back-end and front-end. Please consider to select "
+"&#8220;mu-plugins&#8221; (ip-geo-block-mu.php) at &#8220;Validation "
+"timing&#8221; so that other staff would not fetch the uploaded files before "
+"this validation.\">Prevent malicious file uploading</dfn>"
+msgstr ""
+"<dfn title=\"It restricts the file types on upload in order to block malware "
+"and backdoor via both back-end and front-end. Please consider to select "
+"&#8220;mu-plugins&#8221; (ip-geo-block-mu.php) at &#8220;Validation "
+"timing&#8221; so that other staff would not fetch the uploaded files before "
+"this validation.\">防止恶意文件上传</dfn>"
+
+#: admin/includes/tab-settings.php:304 admin/includes/tab-settings.php:479
+#: admin/includes/tab-settings.php:624 admin/includes/tab-settings.php:1189
+msgid "Disable"
+msgstr "禁用"
+
+#: admin/includes/tab-settings.php:305
+msgid "Verify file extension and MIME type"
+msgstr "验证文件扩展名和MIME类型"
+
+#: admin/includes/tab-settings.php:306
+msgid "Verify file extension only"
+msgstr "仅验证文件扩展名"
+
+#: admin/includes/tab-settings.php:315
+#, php-format
+msgid ""
+"<dfn title=\"You can put your original 403.php and so on into your theme "
+"directory.\">Response code</dfn> %s"
+msgstr ""
+
+#: admin/includes/tab-settings.php:344 admin/includes/tab-settings.php:873
+msgid ""
+"<dfn title=\"Specify the URL for response code 2xx and 3xx. If it is pointed "
+"to a public facing page, visitors would not be blocked on the page to "
+"prevent loop of redirection even when you enable [Block by country] in "
+"[Front-end target settings] section. Empty URL is altered to your home."
+"\">Redirect URL</dfn>"
+msgstr ""
+"<dfn title=\"Specify the URL for response code 2xx and 3xx. If it is pointed "
+"to a public facing page, visitors would not be blocked on the page to "
+"prevent loop of redirection even when you enable [Block by country] in "
+"[Front-end target settings] section. Empty URL is altered to your home.\">重"
+"定向 URL</dfn>"
+
+#: admin/includes/tab-settings.php:361 admin/includes/tab-settings.php:891
+msgid ""
+"<dfn title=\"Specify the message for response code 4xx and 5xx.\">Response "
+"message</dfn>"
+msgstr ""
+"<dfn title=\"Specify the message for response code 4xx and 5xx.\">响应消息</"
+"dfn>"
+
+#: admin/includes/tab-settings.php:379
+msgid "Select when to run the validation."
+msgstr "选择何时运行验证。"
+
+#: admin/includes/tab-settings.php:379
+msgid "Validation timing"
+msgstr "验证时间"
+
+#: admin/includes/tab-settings.php:390
+msgid "&#8220;init&#8221; action hook"
+msgstr ""
+
+#: admin/includes/tab-settings.php:391
+msgid "&#8220;mu-plugins&#8221; (ip-geo-block-mu.php)"
+msgstr ""
+
+#: admin/includes/tab-settings.php:394
+msgid ""
+"Validate at &#8220;init&#8221; action hook in the same manner as typical "
+"plugins."
+msgstr "验证 &#8220;init&#8221;  动作挂钩的方式与典型插件相同。"
+
+#: admin/includes/tab-settings.php:395
+msgid ""
+"Validate at an earlier phase than other typical plugins. It can reduce load "
+"on server but has <a rel='noreferrer' href='https://www.ipgeoblock.com/codex/"
+"validation-timing.html' title='Validation timing | IP Geo Block'>some "
+"restrictions</a>."
+msgstr ""
+"在比其他典型插件更早的阶段进行验证。它可以减少服务器上的负载，但有<a "
+"rel='noreferrer' href='https://www.ipgeoblock.com/codex/validation-timing."
+"html' title='Validation timing | IP Geo Block'>some restrictions</a>."
+
+#: admin/includes/tab-settings.php:405
+msgid "Back-end target settings"
+msgstr "后端目标设置"
+
+#: admin/includes/tab-settings.php:411
+#, php-format
+msgid "<dfn title=\"Validate request to %s.\">%s</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:417
+msgid "Other areas"
+msgstr "其他区域"
+
+#: admin/includes/tab-settings.php:418
+msgid "public facing pages"
+msgstr "面向公众的页面"
+
+#: admin/includes/tab-settings.php:434 admin/includes/tab-settings.php:480
+#: admin/includes/tab-settings.php:512 admin/includes/tab-settings.php:518
+#: admin/includes/tab-settings.php:783
+msgid "Block by country"
+msgstr "按国家/地区划分"
+
+#: admin/includes/tab-settings.php:444
+msgid "The whole will be wrapped by &lt;p&gt; tag. Allowed tags: "
+msgstr "整个将由 &lt;p&gt;  标签包裹。 允许的标签："
+
+#: admin/includes/tab-settings.php:444
+msgid "Message on comment form"
+msgstr "评论表上的消息"
+
+#: admin/includes/tab-settings.php:457
+msgid "None"
+msgstr "没有"
+
+#: admin/includes/tab-settings.php:458
+msgid "Top"
+msgstr "顶部"
+
+#: admin/includes/tab-settings.php:459
+msgid "Bottom"
+msgstr "底部"
+
+#: admin/includes/tab-settings.php:481
+msgid "Completely close"
+msgstr "完全关闭"
+
+#: admin/includes/tab-settings.php:487
+msgid "Action to login as a registered user."
+msgstr "以注册用户身份登录的操作。"
+
+#: admin/includes/tab-settings.php:487
+msgid "Log in"
+msgstr "登录为"
+
+#: admin/includes/tab-settings.php:488
+msgid "Action to register new users."
+msgstr "注册新用户的行动。"
+
+#: admin/includes/tab-settings.php:488
+msgid "Register"
+msgstr "注册"
+
+#: admin/includes/tab-settings.php:489
+msgid "Action to reset a password to create a new one."
+msgstr "重置密码以创建新密码的操作。"
+
+#: admin/includes/tab-settings.php:489
+msgid "Password Reset"
+msgstr "重置密码"
+
+#: admin/includes/tab-settings.php:490
+msgid "Action to email a password to a registered user."
+msgstr "将密码通过电子邮件发送给注册用户的操作。"
+
+#: admin/includes/tab-settings.php:490
+msgid "Lost Password"
+msgstr "忘记密码"
+
+#: admin/includes/tab-settings.php:491
+msgid ""
+"Action to show prompt to enter a password on password protected post and "
+"page."
+msgstr "在密码保护的帖子和页面上显示提示输入密码的操作。"
+
+#: admin/includes/tab-settings.php:491
+msgid "Password protected"
+msgstr "密码保护"
+
+#: admin/includes/tab-settings.php:513
+msgid ""
+"<dfn title=\"Specify the individual action as a blocking target.\">Target "
+"actions</dfn>"
+msgstr "<dfn title=\"将单个操作指定为阻止目标。\">目标操作</dfn>"
+
+#: admin/includes/tab-settings.php:519
+msgid "Prevent Zero-day Exploit"
+msgstr "防止 0-day 漏洞"
+
+#: admin/includes/tab-settings.php:523
+msgid ""
+"It will block a request related to the services for both public facing pages "
+"and the dashboard."
+msgstr "它将阻止与面向公共页面和仪表板的服务相关的请求。"
+
+#: admin/includes/tab-settings.php:524
+msgid ""
+"Regardless of the country code, it will block a malicious request related to "
+"the services only for the dashboard."
+msgstr "无论国家/地区代码如何, 它都将阻止与仅用于仪表板的服务相关的恶意请求。"
+
+#: admin/includes/tab-settings.php:530
+msgid ""
+"This is applied to &#8220;XML-RPC&#8221; and &#8220;Login form&#8221; when "
+"&#8220;IP address cache&#8221; in &#8220;Privacy and record settings&#8221; "
+"section is enabled. Lockout period is the same as expiration time of the "
+"cache."
+msgstr ""
+
+#: admin/includes/tab-settings.php:530
+msgid "Max failed login attempts per IP address"
+msgstr "每个 IP 地址的最大登录尝试失败次数"
+
+#: admin/includes/tab-settings.php:571
+msgid "admin post for logged-in user"
+msgstr "登录用户的管理员帖子"
+
+#: admin/includes/tab-settings.php:572
+msgid "admin post for non logged-in user"
+msgstr "非登录用户的管理员职位"
+
+#: admin/includes/tab-settings.php:594
+msgid "Admin ajax/post"
+msgstr "管理员 ajax/post"
+
+#: admin/includes/tab-settings.php:608
+msgid ""
+"Specify the action name (&#8220;action=&hellip;&#8221;) or the page name "
+"(&#8220;page=&hellip;&#8221;) to prevent unintended blocking caused by "
+"&#8220;Block by country&#8221; (for non logged-in user) and &#8220;Prevent "
+"Zero-day Exploit&#8221; (for logged-in user)."
+msgstr ""
+
+#: admin/includes/tab-settings.php:608 admin/includes/tab-settings.php:686
+#: admin/includes/tab-settings.php:746
+msgid "Exceptions"
+msgstr "例外"
+
+#: admin/includes/tab-settings.php:609
+msgid "Toggle with non logged-in user"
+msgstr "使用非登录用户进行切换"
+
+#: admin/includes/tab-settings.php:612
+msgid "Candidate actions/pages"
+msgstr "候选操作/页面"
+
+#: admin/includes/tab-settings.php:626
+#, php-format
+msgid ""
+"Regardless of the country code, it will block a malicious request to <code>"
+"%s&ctdot;/*.php</code>."
+msgstr ""
+"无论国家代码如何，它都会阻止对 <code>%s&ctdot;/*.php</code> 的恶意请求。"
+
+#: admin/includes/tab-settings.php:627
+msgid ""
+"Select the item which causes unintended blocking in order to exclude from "
+"the validation target. Grayed item indicates &#8220;INACTIVE&#8221;."
+msgstr ""
+"选择导致意外阻止的项目，以便从验证目标中排除。灰色项表示 &#8220; 非活跃"
+"&#8221;."
+
+#: admin/includes/tab-settings.php:628
+#, php-format
+msgid ""
+"It configures &#8220;%s&#8221; to validate a direct request to the PHP file "
+"which does not load WordPress core. Make sure to deny direct access to the "
+"hidden files beginning with a dot by the server's configuration."
+msgstr ""
+"它配置 &#8220;%s&#8221;  以验证对不加载WordPress核心的PHP文件的直接请求。确保"
+"拒绝直接访问服务器配置中以点开头的隐藏文件。"
+
+#: admin/includes/tab-settings.php:629
+msgid "Sorry, but your server type is not supported."
+msgstr "对不起, 您的服务器类型不受支持。"
+
+#: admin/includes/tab-settings.php:630
+msgid ""
+"You need to click &#8220;Save Changes&#8221; button for imported settings to "
+"take effect."
+msgstr "您需要单击 &#8220;Save Changes&#8221;  按钮才能使导入的设置生效。"
+
+#: admin/includes/tab-settings.php:665 admin/includes/tab-settings.php:725
+msgid "Force to load WP core"
+msgstr ""
+
+#: admin/includes/tab-settings.php:670
+msgid "Plugins area"
+msgstr "插件区域"
+
+#: admin/includes/tab-settings.php:730
+msgid "Themes area"
+msgstr "主题区域"
+
+#: admin/includes/tab-settings.php:765
+msgid "Front-end target settings"
+msgstr "前端目标设置"
+
+#: admin/includes/tab-settings.php:800
+msgid "Follow &#8220;Validation rule settings&#8221;"
+msgstr "遵循和 &#8220;验证规则设置 &#8221;"
+
+#: admin/includes/tab-settings.php:842
+#, php-format
+msgid ""
+"<dfn title=\"You can configure a different response code from the Back-end. "
+"This is useful to prevent violation against your affiliate program."
+"\">Response code</dfn> %s"
+msgstr ""
+
+#: admin/includes/tab-settings.php:906
+msgid ""
+"<dfn title=\"Specify the individual page as a blocking target.\">Page</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:918
+msgid ""
+"<dfn title=\"Specify the individual post type on a single page as a blocking "
+"target.\">Post type</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:930
+msgid ""
+"<dfn title=\"Specify the individual category on a single page or archive "
+"page as a blocking target.\">Category</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:942
+msgid ""
+"<dfn title=\"Specify the individual tag on a single page or archive page as "
+"a blocking target.\">Tag</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:956
+msgid "Specify the validation target on front-end."
+msgstr "在前端指定验证目标。"
+
+#: admin/includes/tab-settings.php:956
+msgid "Validation target"
+msgstr "验证目标"
+
+#: admin/includes/tab-settings.php:967
+msgid "All requests"
+msgstr "所有请求"
+
+#: admin/includes/tab-settings.php:968
+msgid "Specify the targets"
+msgstr "指定目标"
+
+#: admin/includes/tab-settings.php:971
+msgid ""
+"Notice that &#8220;Validation timing&#8221; is deferred till &#8220;"
+"wp&#8221; action hook. It means that this feature would not be compatible "
+"with any page caching."
+msgstr ""
+
+#: admin/includes/tab-settings.php:981
+msgid "Specify the name of actions as exception that is invariably blocked."
+msgstr "将操作名称指定为始终被阻止的异常。"
+
+#: admin/includes/tab-settings.php:981
+msgid "Excluded actions"
+msgstr "排除的操作"
+
+#: admin/includes/tab-settings.php:997
+msgid ""
+"<dfn title=\"Specify the frequency of request for certain period of time."
+"\">Blocking condition</dfn>"
+msgstr "<dfn title=\"指定特定时间段内的请求频率。\">阻塞情况</dfn>"
+
+#: admin/includes/tab-settings.php:999
+#, php-format
+msgid "More than %1$s page view (PV) in %2$s seconds"
+msgstr "%2$s 秒内超过 %1$s 的页面浏览量（PV）"
+
+#: admin/includes/tab-settings.php:1007
+msgid ""
+"<dfn title=\"It will validate the frequency of request.\">Block badly-"
+"behaved bots and crawlers</dfn>"
+msgstr "<dfn title=\"它将验证请求的频率。\">阻止行为不端的机器人和爬虫</dfn>"
+
+#: admin/includes/tab-settings.php:1024
+msgid ""
+"A part of user agent string and a qualification connected with a separator "
+"that indicates an applicable rule and can be &#8220;:&#8221; (pass) or "
+"&#8220;#&#8221; (block). A &#8220;qualification&#8221; can be &#8220;"
+"DNS&#8221;, &#8220;FEED&#8221;, country code or IP address with CIDR. A "
+"negative operator &#8220;!&#8221; can be placed just before a &#8220;"
+"qualification&#8221;."
+msgstr ""
+
+#: admin/includes/tab-settings.php:1024
+msgid "UA string and qualification"
+msgstr "UA字符串和资格"
+
+#: admin/includes/tab-settings.php:1041
+msgid ""
+"It enables to verify the host by reverse DNS lookup which would spend some "
+"server resources. If it is disabled, &#8220;HOST&#8221; and &#8220;"
+"HOST=&hellip;&#8221;in &#8220;UA string and qualification&#8221; will always "
+"return &#8220;true&#8221;."
+msgstr ""
+
+#: admin/includes/tab-settings.php:1041
+msgid "Reverse DNS lookup"
+msgstr "反向DNS查找"
+
+#: admin/includes/tab-settings.php:1058
+msgid ""
+"It enables to simulate validation without deployment. The results can be "
+"found as &#8220;public&#8221; in Logs."
+msgstr ""
+"它可以在不进行部署的情况下模拟验证。结果可以在Logs中找到 &#8220;"
+"public&#8221;。"
+
+#: admin/includes/tab-settings.php:1058
+msgid "Simulation mode"
+msgstr "模拟模式"
+
+#: admin/includes/tab-settings.php:1076
+msgid "Privacy and record settings"
+msgstr "隐私和记录设置"
+
+#: admin/includes/tab-settings.php:1099
+msgid ""
+"<dfn title=\"This option restricts not to send IP address to the external "
+"Geolocation APIs.\">Do not send IP address to external APIs</dfn>"
+msgstr ""
+"<dfn title=\"此选项限制不将IP地址发送到外部Geolocation API。\">不要将IP地址发"
+"送到外部API</dfn>"
+
+#: admin/includes/tab-settings.php:1114
+msgid ""
+"<dfn title=\"This option enables to record the number blocked countries and "
+"the number of blocked requests per day.\">Record &#8220;Statistics of "
+"validation&#8221;</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:1129
+msgid "Maximum period for &#8220;Statistics&#8221; [days]"
+msgstr "&#8220;Statistics&#8221;  的最长期限  [days]"
+
+#: admin/includes/tab-settings.php:1147
+msgid ""
+"<dfn title=\"This option enables to record the IP address, country code and "
+"failure counter of login attempts into the cache on database to minimize the "
+"impact on site speed.\">Record &#8220;IP address cache&#8221;</dfn>"
+msgstr ""
+"<dfn title=\"此选项可以将登录尝试的IP地址，国家/地区代码和失败计数器记录到数"
+"据库的缓存中，以最大限度地减少对站点速度的影响。\">记录 &#8220;IP address "
+"cache&#8221;</dfn>"
+
+#: admin/includes/tab-settings.php:1162
+msgid ""
+"<dfn title=\"If user authentication fails consecutively beyond &#8220;Max "
+"number of failed login attempts per IP address&#8221;, subsequent login will "
+"also be prohibited for this period.\">Expiration time [sec] for each entry</"
+"dfn>"
+msgstr ""
+"<dfn title=\"如果用户身份验证连续超出 &#8220;Max number of failed login "
+"attempts per IP address&#8221; ，则此时间段也将禁止后续登录。\">每个条目的到"
+"期时间 [sec] </dfn>"
+
+#: admin/includes/tab-settings.php:1178
+msgid ""
+"<dfn title=\"This option enables to record the validation logs including IP "
+"addresses.\">Record &#8220;Validation logs&#8221;</dfn>"
+msgstr ""
+"<dfn title=\"此选项可以记录验证日志，包括IP地址。\">Record &#8220;Validation "
+"logs&#8221;</dfn>"
+
+#: admin/includes/tab-settings.php:1190
+msgid "When blocked"
+msgstr "已阻止"
+
+#: admin/includes/tab-settings.php:1191
+msgid "When passed"
+msgstr "通过时"
+
+#: admin/includes/tab-settings.php:1192
+msgid "When &#8220;blocked&#8221; or &#8220;passed (not in whitelist)&#8221;"
+msgstr "当  &#8220;阻止&#8221;  或 &#8220;通过 (不在白名单)&#8221;"
+
+#: admin/includes/tab-settings.php:1193
+msgid "Unauthenticated visitor"
+msgstr "未经身份验证的访客"
+
+#: admin/includes/tab-settings.php:1194
+msgid "Authenticated user"
+msgstr "已认证用户"
+
+#: admin/includes/tab-settings.php:1195
+msgid "All the validation"
+msgstr "所有的验证"
+
+#: admin/includes/tab-settings.php:1203
+#, php-format
+msgid ""
+"<dfn title=\"The maximum number of entries in the logs is also limited to %d."
+"\">Expiration time [days] for each entry</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:1220
+msgid ""
+"<dfn title=\"e.g. action, comment, log, pwd, FILES\">$_POST key to record "
+"with value</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:1239
+msgid "Maximum entries in &#8220;Logs&#8221;"
+msgstr "&#8220;Logs&#8221;中的最大条目"
+
+#: admin/includes/tab-settings.php:1256
+msgid ""
+"<dfn title=\"Select SQLite database source.\">Database source of SQLite for "
+"&#8220;Live update&#8221;</dfn>"
+msgstr ""
+"<dfn title=\"选择SQLite数据库源。\">用于  &#8220;Live update&#8221; 的SQLite"
+"数据库源</dfn>"
+
+#: admin/includes/tab-settings.php:1269
+msgid "Ordinary file"
+msgstr "普通文件"
+
+#: admin/includes/tab-settings.php:1270
+msgid "In-Memory"
+msgstr "在内存中"
+
+#: admin/includes/tab-settings.php:1273
+msgid "PDO_SQLITE driver not available"
+msgstr "PDO_SQLITE 驱动程序不可用"
+
+#: admin/includes/tab-settings.php:1274
+msgid ""
+"It takes a few tens of milliseconds as overhead. It can be safely used "
+"without conflict with other plugins."
+msgstr "它需要几毫秒作为开销。它可以安全地使用, 而不会与其他插件冲突。"
+
+#: admin/includes/tab-settings.php:1275
+msgid ""
+"It takes a few milliseconds as overhead. There is a possibility of conflict "
+"with other plugins using this method."
+msgstr "开销需要几毫秒。使用此方法可能会与其他插件发生冲突。"
+
+#: admin/includes/tab-settings.php:1283
+msgid "Reset database source of &#8220;Live update&#8221;"
+msgstr "重置 &#8220;Live update&#8221; 的数据库源"
+
+#: admin/includes/tab-settings.php:1291
+msgid "Reset now"
+msgstr "现在重置"
+
+#: admin/includes/tab-settings.php:1300 admin/includes/tab-settings.php:1427
+msgid ""
+"Task could not be found in WP-Cron. Please try to deactivate this plugin "
+"once and activate again."
+msgstr "在 WP-Cron 中找不到任务。请尝试停用此插件一次, 然后再次激活。"
+
+#: admin/includes/tab-settings.php:1305
+msgid ""
+"<dfn title=\"This option enables to schedule the WP-Cron event to remove the "
+"expired entries in &#8220;IP address cache&#8221; and &#8220;Logs&#8221;."
+"\">Interval [sec] to cleanup expired entries of IP address</dfn>"
+msgstr ""
+"<dfn title=\"This option enables to schedule the WP-Cron event to remove the "
+"expired entries in &#8220;IP address cache&#8221; and &#8220;Logs&#8221;.\">"
+"清除 IP 地址过期条目的间隔 [sec]</dfn>"
+
+#: admin/includes/tab-settings.php:1314 admin/includes/tab-settings.php:1443
+#, php-format
+msgid "Next schedule: %s"
+msgstr "下一次发送：%s"
+
+#: admin/includes/tab-settings.php:1321
+msgid "Remove all settings and records at uninstallation"
+msgstr "卸载时删除所有设置和记录"
+
+#: admin/includes/tab-settings.php:1338
+msgid "Geolocation API settings"
+msgstr ""
+
+#: admin/includes/tab-settings.php:1358
+msgid ""
+"<dfn title=\"IP address cache and local databases are scanned at the top "
+"priority.\">API selection and key settings</dfn>"
+msgstr ""
+"<dfn title=\"以最高优先级扫描IP地址缓存和本地数据库。\">API选择和密钥设置</"
+"dfn>"
+
+#: admin/includes/tab-settings.php:1377
+msgid "Timeout for network API [sec]"
+msgstr "网络API超时 [sec]"
+
+#: admin/includes/tab-settings.php:1395
+msgid "Local database settings"
+msgstr "本地数据库设置"
+
+#: admin/includes/tab-settings.php:1409
+msgid "database"
+msgstr "数据库"
+
+#: admin/includes/tab-settings.php:1410 classes/class-ip-geo-block-cron.php:418
+#, php-format
+msgid "Last update: %s"
+msgstr "最近更新: %s"
+
+#: admin/includes/tab-settings.php:1432
+msgid "Auto updating (once a month)"
+msgstr "自动更新（每月一次）"
+
+#: admin/includes/tab-settings.php:1450
+msgid "Download database"
+msgstr "下载数据库"
+
+#: admin/includes/tab-settings.php:1458
+msgid "Download now"
+msgstr "现在下载"
+
+#: admin/includes/tab-settings.php:1469
+msgid "Plugin settings"
+msgstr "插件设置"
+
+#: admin/includes/tab-settings.php:1481
+msgid ""
+"<dfn title=\"Synchronize all settings over the network wide.\">Network wide "
+"settings</dfn>"
+msgstr "<dfn title=\"通过网络同步所有设置。\">网络范围设置</dfn>"
+
+#: admin/includes/tab-settings.php:1499
+msgid ""
+"<dfn title=\"You can access to the login form with a specific key at "
+"emergency. Please add the generated link to favorites / bookmarks in your "
+"browser as this plugin does not keep the key itself.\">Emergency login link</"
+"dfn>"
+msgstr ""
+"<dfn title=\"You can access to the login form with a specific key at "
+"emergency. Please add the generated link to favorites / bookmarks in your "
+"browser as this plugin does not keep the key itself.\">紧急登录链接</dfn>"
+
+#: admin/includes/tab-settings.php:1515
+msgid ""
+"<dfn title=\"Valid key for Google Maps JavaScript API. A free tier has limit "
+"even if it's &#8220;default&#8221;. Maps Embed API without key can be "
+"available in case of empty.\">Google Maps API key</dfn>"
+msgstr ""
+
+#: admin/includes/tab-settings.php:1531
+msgid "Export / Import settings"
+msgstr "导出/导入设置"
+
+#: admin/includes/tab-settings.php:1538
+msgid "Export settings"
+msgstr "导出设置"
+
+#: admin/includes/tab-settings.php:1539
+msgid "Import from the local file"
+msgstr "从本地文件导入"
+
+#: admin/includes/tab-settings.php:1539
+msgid "Import settings"
+msgstr "导入设置"
+
+#: admin/includes/tab-settings.php:1547
+msgid "Import pre-defined settings"
+msgstr "导入预定义的设置"
+
+#: admin/includes/tab-settings.php:1554
+msgid ""
+"Import the default settings to revert to the &#8220;Right after "
+"installing&#8221; state"
+msgstr "导入默认设置以恢复为 &#8220;Right after installing&#8221;  状态"
+
+#: admin/includes/tab-settings.php:1554
+msgid "Default settings"
+msgstr "默认设置"
+
+#: admin/includes/tab-settings.php:1555
+msgid ""
+"Import the preferred settings mainly by enabling Zero-day Exploit Prevention "
+"for the &#8220;Back-end target settings&#8221;"
+msgstr ""
+"主要通过为 &#8220;Back-end target settings&#8221; 启用零日漏洞防护来导入首选"
+"设置"
+
+#: admin/includes/tab-settings.php:1555
+msgid "Best for Back-end"
+msgstr "最适合后端"
+
+#: admin/includes/tab-settings.php:1564
+msgid "DB tables for this plugin"
+msgstr "此插件的数据库表"
+
+#: admin/includes/tab-settings.php:1572
+msgid "Initialize now"
+msgstr "现在初始化"
+
+#: admin/includes/tab-settings.php:1581
+msgid ""
+"<dfn title=\"When you have some unexpected blocking experiences, please "
+"press the button to find the blocked requests at the end of dumped "
+"information which may help you to solve the issues.\">Diagnostic "
+"information</dfn><br />[ <a rel=\"noreferrer\" href=\"https://wordpress.org/"
+"support/plugin/ip-geo-block\" title=\"[IP Geo Block] Support | WordPress.org"
+"\">support forum</a> ]"
+msgstr ""
+
+#: admin/includes/tab-settings.php:1588
+msgid "Please copy &amp; paste when submitting your issue to support forum"
+msgstr ""
+
+#: admin/includes/tab-settings.php:1588
+msgid "Show information"
+msgstr "显示信息"
+
+#: admin/includes/tab-settings.php:1605
+msgid ""
+"While Geolite2 / Maxmind and IP2Location will fetch the local databases, "
+"others will pass an IP address to the 3rd parties' API via HTTP."
+msgstr ""
+"当Geolite2 / Maxmind和IP2Location将获取本地数据库时，其他人将通过HTTP将IP地址"
+"传递给第三方的API。"
+
+#: admin/includes/tab-settings.php:1606
+msgid ""
+"Please select the appropriate APIs to fit the privacy law / regulation in "
+"your country / region."
+msgstr "请选择适合您所在国家/地区的隐私法/法规的API。"
+
+#: admin/includes/tab-settings.php:1615
+#, php-format
+msgid ""
+"Maxmind GeoLite2 databases and APIs need PHP version 5.4.0+ and %sPECL phar "
+"2.0.0+%s."
+msgstr "Maxmind GeoLite2数据库和API需要PHP版本5.4.0+和 %sPECL phar 2.0.0+%s."
+
+#: admin/includes/tab-statistics.php:19
+msgid "Statistics of validation"
+msgstr "验证统计"
+
+#: admin/includes/tab-statistics.php:32
+msgid "Blocked"
+msgstr "已阻止"
+
+#: admin/includes/tab-statistics.php:56
+msgid "Blocked by countries"
+msgstr "屏蔽国家"
+
+#: admin/includes/tab-statistics.php:96
+msgid "Blocked per day"
+msgstr "屏蔽每天"
+
+#: admin/includes/tab-statistics.php:111
+msgid "Blocked by type of IP address"
+msgstr "被IP地址类型阻止"
+
+#: admin/includes/tab-statistics.php:128
+msgid "Name of API"
+msgstr ""
+
+#: admin/includes/tab-statistics.php:129
+msgid "Call"
+msgstr ""
+
+#: admin/includes/tab-statistics.php:130
+msgid "Response [msec]"
+msgstr "响应 [msec]"
+
+#: admin/includes/tab-statistics.php:144
+msgid "Average response time of each API"
+msgstr "每个API的平均响应时间"
+
+#: admin/includes/tab-statistics.php:159
+msgid "Clear statistics"
+msgstr "清除统计"
+
+#: admin/includes/tab-statistics.php:179
+msgid "Statistics in validation logs"
+msgstr "验证日志中的统计信息"
+
+#: admin/includes/tab-statistics.php:210
+msgid "Statistics in IP address cache"
+msgstr "IP地址缓存中的统计信息"
+
+#: admin/includes/tab-statistics.php:222
+msgid "Search in cache"
+msgstr "在缓存中搜索"
+
+#: admin/includes/tab-statistics.php:261
+msgid "Clear cache"
+msgstr "清理缓存"
+
+#: admin/includes/tab-statistics.php:277
+msgid "Export cache"
+msgstr "导出缓存"
+
+#: admin/includes/tab-statistics.php:300
+msgid "Country (Top 10)"
+msgstr "国家（前10名）"
+
+#: admin/includes/tab-statistics.php:301
+msgid "AS number (Top 10)"
+msgstr "AS编号（前10名）"
+
+#: admin/includes/tab-statistics.php:302
+msgid "IP address (Top 10)"
+msgstr "IP地址（前10名）"
+
+#: admin/includes/tab-statistics.php:303
+msgid "Slug in back-end"
+msgstr "Slug在后端"
+
+#: admin/includes/tab-statistics.php:355
+msgid "Toggle sorting order"
+msgstr "切换排序顺序"
+
+#: admin/includes/tab-statistics.php:406
+#, php-format
+msgid "[ %sRecord &#8220;Statistics of validation&#8221;%s ] is disabled."
+msgstr ""
+
+#: admin/includes/tab-statistics.php:407
+msgid ""
+"Please set the proper condition to record and analyze the validation "
+"statistics."
+msgstr ""
+
+#: admin/includes/tab-statistics.php:420
+#, php-format
+msgid "[ %sRecord &#8220;IP address cache&#8221;%s ] is disabled."
+msgstr ""
+
+#: admin/includes/tab-statistics.php:421
+msgid "Please set the proper condition to record IP address in cache."
+msgstr ""
+
+#: classes/class-ip-geo-block-cron.php:221
+#, php-format
+msgid "Can't lock <code>%s</code>. Please try again after a while."
+msgstr ""
+
+#: classes/class-ip-geo-block-cron.php:300
+msgid "Your database file is up-to-date."
+msgstr ""
+
+#: classes/class-ip-geo-block-cron.php:399
+msgid "gz or zip is not supported on your system."
+msgstr ""
+
+#: classes/class-ip-geo-block-file.php:54
+#, php-format
+msgid ""
+"This plugin does not support method &#8220;%s&#8221; for FTP or SSH based "
+"file operations. Please refer to <a href=\"https://codex.wordpress.org/"
+"Editing_wp-config.php#WordPress_Upgrade_Constants\" title=\"Editing wp-"
+"config.php &laquo; WordPress Codex\">this document</a> for more details."
+msgstr ""
+
+#: classes/class-ip-geo-block-file.php:68
+msgid ""
+"You should define some constants in your <code>wp-config.php</code> for FTP "
+"or SSH based file operations. Please refer to <a href=\"https://codex."
+"wordpress.org/Editing_wp-config.php#WordPress_Upgrade_Constants\" title="
+"\"Editing wp-config.php &laquo; WordPress Codex\">this document</a> for more "
+"details."
+msgstr ""
+
+#: classes/class-ip-geo-block-logs.php:236
+#, php-format
+msgid ""
+"Creating a DB table %s had failed. Once de-activate this plugin, and then "
+"activate again."
+msgstr ""
+
+#: classes/class-ip-geo-block-logs.php:241
+#, php-format
+msgid ""
+"Column type in %s unmatched. Once de-activate this plugin, and then activate "
+"again."
+msgstr ""
+
+#: classes/class-ip-geo-block.php:417
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: wp-content/ip-geo-api/ip2location/class-ip2location.php:151
+#: wp-content/ip-geo-api/maxmind/class-maxmind-geolite2.php:144
+#: wp-content/ip-geo-api/maxmind/class-maxmind-legacy.php:228
+msgid "Database file does not exist."
+msgstr "资料库档案不存在。"
+
+#: wp-content/mu-plugins/ip-geo-block-mu.php:72
+#, php-format
+msgid ""
+"Can't find IP Geo Block in your plugins directory. Please remove <code>%s</"
+"code> or re-install %s."
+msgstr ""
+"在插件目录中找不到 IP 地理数据块。请删除 <code>%s</code> 或重新安装 %s。"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/ip-geo-block/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"It blocks any spams, login attempts and malicious access to the admin area "
+"posted from outside your nation, and also prevents zero-day exploit."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "tokkonopapa"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.ipgeoblock.com/"
+msgstr ""
